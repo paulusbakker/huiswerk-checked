@@ -3,3 +3,45 @@
 ========================================================= */
 
 /* Schrijf hier  jouw CSS! */
+.one{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.two{
+    display: flex;
+    justify-content: space-between;
+}
+
+.three{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.three li{
+    display: inline-flex;
+    flex-direction: row;
+    margin-right: 50px;
+    justify-content: left;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.five {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+}
+
+.five article{
+    flex-basis: 360px;
+    flex-grow: 1;
+}
+
